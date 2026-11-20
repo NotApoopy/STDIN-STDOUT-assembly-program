@@ -10,7 +10,7 @@
 
 if u wanna compile use
 
-> <ins> ***nasm -felf64 main.asm -o main.o && od main.o -o main*** </ins>
+> <ins> ***nasm -felf64 main.asm -o main.o && ld main.o -o main*** </ins>
 
 if you are on mac then all you need to do is change the syscall numbers i believe
 pretty easy to port all thats needed is changing some values
